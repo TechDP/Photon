@@ -12,6 +12,7 @@ import threading
 from re import search, findall
 from requests import get, post
 
+
 try:
     from urllib.parse import urlparse # for python3
     python2, python3 = False, True
